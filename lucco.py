@@ -8,16 +8,16 @@ v5 = "Decepcionado"
 v6 = "Que pena, que pena" 
 
 def imprimir_com_ritmo1(frase, delay=0.4):
-    palavras = frase.split()  # Divide a frase em palavras
+    palavras = frase.split()  
     for palavra in palavras:
-        print(palavra, end=' ', flush=True)  # Imprime a palavra na mesma linha
-        time.sleep(delay)  # Pausa entre as palavras
-    print()  # Pula para a linha seguinte após a frase completa
+        print(palavra, end=' ', flush=True) 
+        time.sleep(delay)
+    print() 
 
 
 def criar_letra():
     imprimir_com_ritmo1(v1)
-    time.sleep(1)  # Pausa entre versos
+    time.sleep(1)  
     imprimir_com_ritmo1(v2)
     time.sleep(2)  
     imprimir_com_ritmo1(v3)
